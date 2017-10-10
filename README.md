@@ -19,13 +19,11 @@ Upload File Video Dengan Codeigniter
   bisa di upload dengan php. Untuk itu kita perlu mengubah file php.ini , 
       Setelah kita berhasil menemukan dan membuka file php.ini barulah kita meng-edit file php.ini sebagai berikut:
       Perhatikan potongan kode di bawah:
-      Ubah value baris ke 770 dengan nilai yang dikehendaki, sebagai contoh saya ubah menjadi 1000M
       
-          post_max_size=1000M
-          
+      Ubah value baris ke 770 dengan nilai yang dikehendaki, sebagai contoh saya ubah menjadi 1000M
+          => post_max_size=1000M
       Ubah value baris ke 992 dengan nilai yang dikehendaki, sebagai contoh saya ubah menjadi 1000M
-          
-          upload_max_filesize = 1000M
+          => upload_max_filesize = 1000M
           
       Kemudian save hasil edit php.ini, dan jangan lupa untuk restart apache
 
